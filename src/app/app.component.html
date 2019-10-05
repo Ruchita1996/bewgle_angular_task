@@ -1,0 +1,50 @@
+<div class="container">
+  <div class= "row" >
+    <div class="col-md-4">    
+        <img class="img-responsive" src="assets/jbl.jpg">
+    </div>
+    <div class="col-md-8">
+        <span>
+          {{title}}
+        </span><br><br>      
+        <table class="table" *ngFor="let data of arrjbl">
+         <tr>
+           <th> Price</th>
+           <td>{{data.price}}</td>
+         </tr>
+         <tr>
+           <th>Latest Review Date </th>
+           <td> {{data.latestReviewDate}} </td>
+         </tr>
+         <tr>
+           <th>Domain</th>
+           <td>{{data.domain}}</td>
+         </tr>        
+          <tr>
+            <th> Name </th>
+            <td> {{data.name}} </td>
+        </tr>      
+         <tr>
+           <th>Title</th>
+           <td>{{data.title}}</td>
+         </tr>      
+         <tr>
+           <th> Category</th>
+           <td>{{data.category}}</td>
+         </tr>      
+         <tr>
+          <th>ProductId </th>
+          <td> {{data.productId}}</td>
+        </tr>      
+        <tr>
+          <th>CreatedAt </th>
+          <td>{{data.createdAt}} </td>
+        </tr>      
+        <tr>
+          <th>Review Count</th>
+          <td>{{data.reviewCount}}</td>
+        </tr>
+       </table>
+    </div>
+  </div>
+</div>
