@@ -1,5 +1,6 @@
 
 
+ 
   .container{
       margin-top: 40px;
   }
@@ -35,3 +36,24 @@
     line-height:1.2;
     color:#ddd;
 }
+.heading {
+    font-size: 25px;
+    margin-right: 2500px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  .checked {
+    color: orange;
+  }
+ 
+.col-md-12{
+  text-align: center;
+  float: right;
+}
+
+  #a{
+    height: 180px;
+    width: 180px;
+  }

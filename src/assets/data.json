@@ -10,16 +10,23 @@
          "reviewCount": 3013, 
          
          
-         "topScores": [ { "topic": "Sound Quality",
+         "topScores": [ {  "id":0,
+                           "topic": "Sound Quality",
                            "score": 4.6 },
                            
-                        { "topic": "Bass", 
+                        { 
+                         "id":1, 
+                         "topic": "Bass", 
                          "score": 4.2 },
 
-                        { "topic": "Design and Build", 
+                        { 
+                        "id":2,
+                         "topic": "Design and Build", 
                          "score": 4.2 },
 
-                        { "topic": "Battery Backup", 
+                        {
+                         "id":3,  
+                         "topic": "Battery Backup", 
                           "score": 4.2 }
                        ] 
                 
