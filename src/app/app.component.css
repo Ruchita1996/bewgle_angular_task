@@ -1,59 +1,46 @@
-
-
- 
-  .container{
+  .container
+  {
       margin-top: 40px;
+      overflow: hidden;
+      
   }
 
-  span{
+  span
+  {
       font-size: 20px;
       font-weight: bold;
   }
 
-  .img-responsive{
+  .img-responsive
+  {
       height: 300px;
       width: 300px;
   }
 
-  .rating {
-    float:left;
-}
-
-.rating:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
-    clip:rect(0,0,0,0);
-}
-
-.rating:not(:checked) > label {
-    float:right;
-    width:1em;
-    padding:0.1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:200%;
-    line-height:1.2;
-    color:#ddd;
-}
-.heading {
+ 
+.heading
+ {
     font-size: 25px;
     margin-right: 2500px;
   }
   
-  .fa {
+  .fa
+   {
     font-size: 25px;
-  }
-  .checked {
+   }
+  .checked 
+  {
     color: orange;
   }
  
-.col-md-12{
+.col-md-12
+{
   text-align: center;
   float: right;
 }
 
-  #a{
+  #a
+  {
     height: 180px;
     width: 180px;
   }

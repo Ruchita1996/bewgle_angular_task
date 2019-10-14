@@ -16,7 +16,7 @@
        </tr>
        <tr>
          <th>Latest Review Date </th>
-         <td> {{data.latestReviewDate}} </td>
+         <td> {{data.latestReviewDate | date:'full'}} </td>
        </tr>
        <tr>
          <th>Domain</th>
@@ -73,7 +73,7 @@
 
                 </circle-progress>
                                
-                <div class="col-md-12">
+                <div class="col-sm-12">
                     <span id="text">{{top.topic}}</span>
                 </div>  
                </div>

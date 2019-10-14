@@ -4,7 +4,7 @@ import {HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
-
+import { DatePipe } from '@angular/common';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -17,14 +17,14 @@ import { AppComponent } from './app.component';
     NgCircleProgressModule.forRoot({
       
       radius: 50,
-      outerStrokeWidth: 16,
+      outerStrokeWidth: 0,
       innerStrokeWidth: 8,
       outerStrokeColor: "#78C000",
-      innerStrokeColor: "#C7E596",
+      innerStrokeColor: "green",
       animationDuration: 300
     })
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
