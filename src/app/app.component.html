@@ -47,6 +47,13 @@
         <td>{{data.reviewCount}}</td>
       </tr>
      </table>
+     </div>
+    </div>  
+
+      <!-- <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-8">
+     
      <span class="heading">topScores</span>
          <span class="fa fa-star checked"></span>
          <span class="fa fa-star checked"></span>
@@ -54,9 +61,28 @@
          <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <hr style="border:3px solid #f1f1f1">
-       <div id="hor">
-            <div class="row" id="circle">
-               <div id="a" *ngFor="let top of topScores">
+
+      </div>
+    </div>  -->
+     
+    
+     
+       
+             <div class="row">
+              <Div class="col-md-4"></Div>
+               
+                <div class="col-md-8">
+
+
+                    <span class="heading">topScores</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star"></span>
+                   <hr style="border:3px solid #f1f1f1">
+
+                <div id="a" *ngFor="let top of topScores">
                 <circle-progress 
                 [percent] = [top.score]
                 [radius]=50
@@ -72,16 +98,13 @@
                 showZeroOuterStroke = false>    
 
                 </circle-progress>
-                               
-                <div class="col-sm-12">
-                    <span id="text">{{top.topic}}</span>
+                <br>
+                <span>{{top.topic}}</span>
+                </div>
+                   
                 </div>  
-               </div>
-               
-               </div>
-               
-            </div>
-            
-     </div>  
-   </div>
+               </div>  
+
+
+    
  </div>

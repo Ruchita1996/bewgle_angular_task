@@ -1,8 +1,9 @@
-  .container
+
+ 
+ .container
   {
       margin-top: 40px;
-      overflow: hidden;
-      
+          
   }
 
   span
@@ -21,7 +22,8 @@
 .heading
  {
     font-size: 25px;
-    margin-right: 2500px;
+    /* margin-right: 2500px; */
+    box-align: 50px;
   }
   
   .fa
@@ -36,11 +38,15 @@
 .col-md-12
 {
   text-align: center;
-  float: right;
+  
 }
 
-  #a
-  {
-    height: 180px;
-    width: 180px;
-  }
+#a
+{
+  height: 180px;
+  width: 180px;
+  display:inline-block;
+  text-align: center;
+}
+
+  
